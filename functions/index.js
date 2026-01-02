@@ -50,4 +50,10 @@ const { createStripePaymentIntent } = require("./stripe/payment_intent");
 exports.createStripePaymentIntent = createStripePaymentIntent;
 
 
+// --------------- Midtrans ---------------
+const { createMidtransTransaction } = require("./midtrans/transaction");
+const { handleMidtransWebhook } = require("./midtrans/webhook_handler");
+
+exports.createMidtransTransaction = createMidtransTransaction;
+exports.handleMidtransWebhook = handleMidtransWebhook;
 

@@ -1,6 +1,6 @@
 const { onRequest } = require("firebase-functions/v2/https");
-const Stripe = require('stripe');
-const stripe = new Stripe(process.env.STRIPE_SECRET_KEY);
+const Stripe = require("stripe");
+const stripe = new Stripe('sk_test_YourDirectStripeSecretKey');
 const admin = require("firebase-admin");
 
 exports.handleStripeWebhook = onRequest(

@@ -245,3 +245,5 @@ All users except Enterprise users must display this notice prominently in applic
 * Copyright (C) 2025 Coding with T.
 * Licensed under Professional Tier (PID: #{your_license_id OR your_order_id}).
 * Unauthorized use violates EULA (End User License Agreement) and may result in legal action.
+
+

@@ -152,6 +152,7 @@ class TSidebar extends StatelessWidget {
                             style: Theme.of(context).textTheme.labelLarge!.apply(letterSpacingDelta: 1.2, color: TColors().white)),
                         // const TMenuItem(route: TRoutes.supportTickets, icon: Iconsax.message, itemName: 'Support Tickets'),
                          TMenuItem(route: TRoutes.chats, icon: Iconsax.messages, itemName: TTexts.sidebarChat.tr),
+                        TMenuItem(route: TRoutes.whatsappSupport, icon: Iconsax.support, itemName: TTexts.sidebarWhatsappSupport.tr),
                         SizedBox(height: TSizes().spaceBtwSections),
 
                         // Users Section

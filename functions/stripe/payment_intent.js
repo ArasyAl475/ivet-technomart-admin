@@ -1,6 +1,6 @@
 const { onCall } = require("firebase-functions/v2/https");
 const admin = require("firebase-admin");
-const stripe = require("stripe")(process.env.STRIPE_SECRET_KEY);
+const stripe = require('stripe')(' ');
 
 exports.createStripePaymentIntent = onCall(
     { region: "us-central1", memory: "256MiB" },
