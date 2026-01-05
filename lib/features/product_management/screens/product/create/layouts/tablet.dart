@@ -6,18 +6,18 @@ import 'package:t_utils/t_utils.dart';
 
 import '../../../../../../routes/routes.dart';
 import '../../../../../../utils/constants/text_strings.dart';
-import '../../edit/widgets/additional_images.dart';
-import '../../edit/widgets/attributes_widget.dart';
-import '../../edit/widgets/bottom_navigation_widget.dart';
-import '../../edit/widgets/brand_widget.dart';
-import '../../edit/widgets/categories_widget.dart';
-import '../../edit/widgets/product_type_widget.dart';
-import '../../edit/widgets/stock_pricing_widget.dart';
-import '../../edit/widgets/tags_widget.dart';
-import '../../edit/widgets/thumbnail_widget.dart';
-import '../../edit/widgets/title_description.dart';
-import '../../edit/widgets/variations_widget.dart';
-import '../../edit/widgets/visibility_widget.dart';
+import '../widgets/additional_images.dart';
+import '../widgets/attributes_widget.dart';
+import '../widgets/bottom_navigation_widget.dart';
+import '../widgets/brand_widget.dart';
+import '../widgets/categories_widget.dart';
+import '../widgets/product_type_widget.dart';
+import '../widgets/stock_pricing_widget.dart';
+import '../widgets/tags_widget.dart';
+import '../widgets/thumbnail_widget.dart';
+import '../widgets/title_description.dart';
+import '../widgets/variations_widget.dart';
+import '../widgets/visibility_widget.dart';
 
 class TabletScreen extends StatelessWidget {
   const TabletScreen({
